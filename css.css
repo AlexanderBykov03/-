@@ -1,0 +1,147 @@
+.menu{
+    width: 1080px;
+    height: 250px;
+
+}
+
+.nav{
+    width:1000;
+    margin: 0 auto;   
+}
+
+nav:before{
+    content:' ';
+    display: block;
+    height: 250px;
+    width: 100%;
+    background: rgb(88, 40, 151);
+    position: absolute;
+    right:0;
+    z-index:-1;
+}
+
+ul{
+    margin: 0;
+    padding-top: 95px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    list-style: none;
+    height: 50px;
+    
+}
+
+ul > li{
+    float: right;
+}
+
+ul > li > a{
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+    font-size: small;
+}
+
+h1{
+    font-size: 3em;
+    color:rgb(255, 255, 255) ;
+    padding-top: 35px;
+    padding-left: 200px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+}
+
+h5{
+    color:rgba(255, 255, 255, 0.63) ;
+    padding-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:0;
+}
+
+h2{
+    padding-left: 203px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.cloud{
+position: relative;
+left: 680px;
+}
+
+.inter{
+    position: relative;
+    left: 350px;
+}
+
+.max{
+    position: relative;
+    left: 20px;
+}
+
+.matrix{
+    position: relative;
+    right: 310px;
+}
+
+img{
+    border: 5px solid rgb(167, 166, 166);
+    border-radius: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: rgb(51, 51, 255);
+    margin-left: 15px;
+}
+
+.search{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(240, 240, 240);
+    float: right;
+    margin-right: 120px;
+    border-radius: 5px;
+    margin-top: -100px;
+    background-position-y: 100px;
+    margin-bottom: 1px;
+    
+}
+
+input{
+    margin-left: 15px;
+    width: 150px;
+    height: 25px;
+    border-color: rgb(219, 219, 219);
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+button{
+    height: 30px;
+    border-color: rgb(219, 219, 219);
+    border-radius: 3px;
+}
+
+.entrance{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(240, 240, 240);
+    float: right;
+    margin-right: -250px;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding-top: 0px;
+    background-position-y: 100px;
+}
+
+.m{
+    color: gold;
+}
