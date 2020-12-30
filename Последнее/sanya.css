@@ -1,0 +1,48 @@
+.header {
+    background-image: url("img/nac.png");
+    height: 840px;
+    margin-top: -200px;
+    width: 1921px;
+}
+.welcome{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 430px;
+    font-size: 6rem;
+    text-align: center;
+    position: relative;
+}
+.creative{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+text-align: center;
+font-size: 2.5rem;
+}
+.des{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -35px;
+}
+.menu-item{
+    color:#ffffff;
+display:inline-block;
+margin-left: 10px;
+text-decoration: none;
+
+}
+.block-menu{
+    background-color: mediumspringgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+}
+.menu{
+    text-align: center;
+    font-size: 1rem;
+}
+.a{
+    color:#ffffff;
+    text-decoration: none;
+}
